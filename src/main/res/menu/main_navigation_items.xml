@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/itmRoutines"
+        android:icon="@drawable/ic_baseline_accessibility_24"
+        android:title="@string/routines" />
+    <item
+        android:id="@+id/itmProfile"
+        android:icon="@drawable/ic_baseline_accessibility_24"
+        android:title="@string/profile" />
+</menu>

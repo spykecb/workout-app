@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">WorkoutApp</string>
+    <string name="title_activity_exercises">ExercisesActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="routines">Routines</string>
+    <string name="workouts">Workouts</string>
+    <string name="profile">Profile</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="save">Save</string>
+    <string name="edit">Edit</string>
+    <string name="duplicate">Duplicate</string>
+
+    <string name="new_routine">New Routine</string>
+    <string name="add_day">Add Day</string>
+    <string name="pick_days">Pick Days</string>
+
+    <string name="exercise">Exercise</string>
+    <string name="add_exercise">Add Exercise</string>
+    <string name="exercise_name">Exercise Name</string>
+
+    <string name="counter_sets">sets</string>
+    <string name="counter_reps">reps</string>
+    <string name="counter_kg">kg</string>
+
+    <string name="hint_exercise_name">Exercise Name</string>
+
+    <!-- Workout Activity -->
+    <plurals name="workout_week">
+        <item quantity="other">Week %d</item>
+    </plurals>
+    <string name="workout_week">Week %d</string>
+
+</resources>
