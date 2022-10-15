@@ -1,13 +1,19 @@
 package jp.spykeh.workoutapp.data
 
+import com.google.gson.annotations.SerializedName
 import java.io.Serializable
 import java.util.*
 
 data class Workout(
     var id: Long? = 0,
+    @SerializedName("completion_date")
     var completionDate: Date?,
+    @SerializedName("week_no")
     var weekNo: Int,
+    @SerializedName("day_no")
     var dayNo: Int,
+    @SerializedName("routine_id")
+    var routineId: Long?,
     var exercises : MutableList<WorkoutExercise>
 ) : Serializable{
     fun addExercise(exercise: WorkoutExercise){
